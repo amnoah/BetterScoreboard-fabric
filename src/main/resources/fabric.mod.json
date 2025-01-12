@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "betterscoreboard",
+  "version": "${version}",
+  "name": "BetterScoreboard",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "GPL-3.0",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "better.scoreboard.fabric.BetterScoreboardFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": "*",
+    "fabric-api": "*",
+    "minecraft": ">=1.20.3",
+    "packetevents": "*"
+  }
+}
